@@ -5,12 +5,8 @@
   
         <Nav />
         <TwoColumns />
-  
-  
-  <div class="footer">
-    <h2>&copy; Programmer Sohan
-    </h2>
-  </div>
+        <Footer />
+        
         
     </div>
 </template>
@@ -18,6 +14,7 @@
 import Header from './Header.vue';
 import Nav from './Nav.vue';
 import TwoColumns from './TwoColumns.vue';
+import Footer from './Footer.vue';
 
 
 export default {
@@ -26,6 +23,7 @@ export default {
         Header,
         Nav,
         TwoColumns,
+        Footer
 
     }
     
@@ -45,21 +43,5 @@ export default {
   }
   
   
-  
- 
-  
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
-  
-
-
-  
-
-
-    
+      
 </style>

@@ -25,5 +25,12 @@ export default {
   .header h1 {
     font-size: 50px;
   }
+
+  @media screen and (max-width: 600px) {
+    .header h1 {
+        font-size: 40px;
+        font-style: italic;
+      }
+  }
     
 </style>
