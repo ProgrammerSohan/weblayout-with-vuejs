@@ -1,14 +1,14 @@
 <template>
     <div>
       
-           <BooleanBox />
+           <HtmlCss />
        
     </div>
 
 </template>
 <script>
-import BooleanBox from './components/BooleanBox.vue';
-
+//import BooleanBox from './components/BooleanBox.vue';
+import HtmlCss from './components/HtmlCss.vue';
 
 
 
@@ -17,8 +17,7 @@ export default{
     name: 'App',
    
     components: {
-      
-        BooleanBox
+      HtmlCss,
 
     }
 
