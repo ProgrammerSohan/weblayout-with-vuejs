@@ -1,6 +1,9 @@
 <template>
     <div>
-        
+        <div class="header">
+            <h1>Programmer Sohan</h1>
+            <p>A Self-Taught Software Engineer,Learner & Dreamer!!</p>
+          </div>
     </div>
 </template>
 <script>
@@ -9,6 +12,18 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    line-height: 4px;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
     
 </style>
